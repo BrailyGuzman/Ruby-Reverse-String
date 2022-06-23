@@ -7,6 +7,6 @@ puts word_reverse
 
 if word_reverse == word
     puts "This word is a palindrome"
-elsif
+elsif word_reverse != word
     puts "This word is not a palindrome"
 end
